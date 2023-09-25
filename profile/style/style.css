@@ -456,6 +456,7 @@ textarea {
 .cisco {
     margin-right: 25px;
     color: #8fc0ff;
+    font-size: 20px;
 }
 
 .principal {
@@ -477,6 +478,7 @@ textarea {
     text-align: center;
     color: #8fc0ff;
     margin-left: 42px;
+    font-size: 20px;
 }
 
 
@@ -484,7 +486,12 @@ textarea {
 .habIcons {
     display: flex;
     justify-content: center;
-    margin-left: 50px;
+    padding-left: 50px;
+
+}
+
+.html, .css {
+    margin-top: 2px;
 }
 
 @media screen and (max-width: 480px) {
@@ -564,4 +571,29 @@ textarea {
         width: 220px;
     }
 
+    .containerCertificacoes {
+        flex-direction: column;
+
+    }
+
+    .textCertificacoes {
+        margin-left: auto;
+    }
+
+    .textCertificacoes p {
+        margin-left: -50px;
+    }
+
+    .selos {
+        margin-left: auto;
+    }
+
+    .titleCerti {
+        margin-left: px;
+    }
+
+    .habilidades {
+        margin-left: -25px;
+
+    }
 }
