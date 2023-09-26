@@ -318,7 +318,7 @@ html {
 
 form {
     font-size: 18px;
-    max-width: 600px;
+    max-width: 90%;
     font-weight: 600;
     padding-left: 20px;
     padding-bottom: 10px;
@@ -554,25 +554,178 @@ textarea {
 
     }
 
-    .displayContato {
-        flex-direction: column;
+    .formTitle {
+        text-align: center;
     }
 
-    textarea {
-        width: 200px;
+    .displayContato {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        max-width: 100%;
+        width: 80%;
+        
+    
+    }
+
+    textarea, input {
+        width: 100%;
+    }
+
+    .dados {
+        width: 80%;
+    }
+
+    .mensagem {
+        margin-left: 0px;
+        width: 80%;
+        
     }
 
     .imgContato {
         margin-left: 0px;
+        margin-top: 50px;
     }
 
     .imgContato img {
         margin-top: 0px;
         width: 220px;
+        height: auto;
     }
 
     .containerCertificacoes {
         flex-direction: column;
+
+    }
+
+    .textCertificacoes {
+        margin-left: auto;
+    }
+
+    .textCertificacoes p {
+        margin-left: -50px;
+    }
+
+    .selos {
+        margin-left: auto;
+    }
+
+    .titleCerti {
+        margin-left: px;
+    }
+
+    .habilidades {
+        margin-left: -25px;
+
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .apresentacao {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left img {
+        margin-bottom: 14px;
+    }
+
+    .right {
+        text-align: center;
+    }
+
+    .containerSobreMim {
+        flex-direction: column;
+    }
+
+    .containerSobreMim .left {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .containerSobreMim .right {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .containerServicos {
+        font-size: 17px;
+    }
+
+    .containerServicos {
+        flex-direction: column;
+    }
+
+    .containerServicos h2 {
+        font-size: 16px;
+    }
+
+    .itemServico1,
+    .itemServico2,
+    .itemServico3,
+    .itemServico4,
+    .itemServico5,
+    .itemServico6,
+    .itemServico7,
+    .itemServico8 {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #servicos h3 {
+        font-size: 15px;
+
+    }
+
+    .formTitle {
+        text-align: center;
+    }
+
+    .displayContato {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        max-width: 100%;
+        width: 80%;
+        
+    
+    }
+
+    textarea, input {
+        width: 100%;
+    }
+
+    .dados {
+        width: 80%;
+    }
+
+    .mensagem {
+        margin-left: 0px;
+        width: 80%;
+        
+    }
+
+    .imgContato {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .imgContato img {
+        margin-top: 0px;
+        width: 220px;
+        height: auto;
+    }
+
+    .containerCertificacoes {
+        flex-direction: column;
+        
 
     }
 
